@@ -207,7 +207,8 @@
   const englishfunck = function(){
     let english  = select(".english");
     const output  = english.innerHTML;
-    english.innerHTML = output.replace("%english", en_uz())
+    let word = en_uz();
+    english.innerHTML = output.replace("%english", word).replace("%eng", word.split('-',1)[0])
   }
   englishfunck();
   const descriptionToday = function () {
