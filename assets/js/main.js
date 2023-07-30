@@ -11,7 +11,6 @@
     };
 
 
-
     const onscroll = (el, listener) => {
         el.addEventListener("scroll", listener);
     };
@@ -55,9 +54,11 @@
         if (minutes < 10) 
             minutes = "0" + minutes;
         
+
         if (seconds < 10) 
             seconds = "0" + seconds;
         
+
         countdown.innerHTML = clock.replace("%h", hours.toString()).replace("%m", minutes.toString()).replace("%s", seconds.toString()).replace("%d", new Date().getDate().toString());
     };
     countDownDate();
@@ -1313,7 +1314,7 @@ function en_uz_ru() {
         "vector - vektor - вектор",
         "explanation - tushuntirish - объяснение",
         "increase -  kattalashtirish - ko'paytirish",
- "alias - taxallus - псевдоним",
+        "alias - taxallus - псевдоним",
         "holds - ushlab turadi - держит",
         "history - tarix - история",
         "running - yugurish - бег",
@@ -2062,7 +2063,7 @@ function en_uz_ru() {
         "animal - hayvon - животное",
         "controllers - kontrollerlar - контроллеры",
         "flatmap - tekis xarita - плоская карта",
- "aliases - taxalluslar - псевдонимы",
+        "aliases - taxalluslar - псевдонимы",
         "huge - ulkan - огромный",
         "semantic - semantik - семантический",
         "someone - kimdir - кто-то",
@@ -2474,7 +2475,7 @@ function en_uz_ru() {
         "ones - birlar - те",
         "rendering - ko'rsatish - рендеринг",
         "accesses - kirishlar - доступ",
- "declares - e'lon qiladi - объявляет",
+        "declares - e'lon qiladi - объявляет",
         "thick - qalin - толстый",
         "manipulating - manipulyatsiya qilish - манипулирование",
         "remaining - qolgan - оставшийся",
@@ -7501,7 +7502,7 @@ function en_uz_ru() {
         "mosaic - mozaika - мозаика",
         "unbounded - cheksiz - неограниченный",
         "loaders - yuk ko'taruvchilar - грузчики",
- "urierror - xato - urierror",
+        "urierror - xato - urierror",
         "interpretable - izohlash mumkin - интерпретируемый",
         "magazines - jurnallar - журналы",
         "blueprints - chizmalar - чертежи",
