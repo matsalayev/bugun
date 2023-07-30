@@ -152,6 +152,11 @@ window.onload = function () {
 };
 function getrandom() {
     let atamalar = [
+        "1. Ushbu Yo‘l harakati qoidalari (keyingi o‘rinlarda — Qoidalar) O‘zbekiston Respublikasi hududida yo‘l harakatining yagona tartibini belgilaydi.",
+        "2. O‘zbekiston Respublikasi yo‘llarida transport vositalarining o‘ng tomonlama harakatlanish tartibi belgilangan.",
+        "3. Yo‘l harakati qatnashchilari “Yo‘l harakati xavfsizligi to‘g‘risida”gi O‘zbekiston Respublikasi Qonunini, ushbu Qoidalarni va unda keltirilgan svetofor ishoralari, yo‘l belgilari (ushbu qoidalarga 1-ilova), yo‘l chiziqlarining (ushbu qoidalarga 2-ilova) talablarini bilishlari, ularga amal qilishlari, shuningdek ularga berilgan vakolat doirasida yo‘llarda harakatni tartibga soluvchilarning ko‘rsatmalarini so‘zsiz bajarishlari shart.",
+        "4. Yo‘l harakati qatnashchilari boshqa yo‘l harakati qatnashchilarining harakatlanishiga xavf tug‘dirmasliklari kerak. Tegishli vakolatga ega bo‘lmagan yuridik va jismoniy shaxslarga yo‘l qoplamasini buzish yoki ifloslantirish, yo‘l belgilarini, svetoforlarni va harakatlanishni tashkil etishning boshqa texnik vositalarini o‘zboshimchalik bilan olib tashlash, o‘rnatish, to‘sib qo‘yish, shikastlantirish, yo‘llarda harakatlanishga to‘sqinlik qiluvchi narsalarni qoldirish taqiqlanadi. Harakatga to‘sqinlik tug‘dirgan shaxs uni tezda bartaraf qilish uchun imkoniyati darajasida barcha choralarni ko‘rishi, agar buning iloji bo‘lmasa, mavjud barcha vositalar bilan xavf-xatar haqida harakat qatnashchilarini ogohlantirishi va ichki ishlar organlariga (keyingi o‘rinlarda IIO) xabar berishi shart.",
+        "5. Mazkur Qoidalarni buzgan shaxslar O‘zbekiston Respublikasining qonun hujjatlariga muvofiq javob beradilar.",
         "Avtomagistral — 5.1. yo‘l belgisi bilan belgilangan, har bir yo‘nalishning qatnov qismlari ajratuvchi bo‘lak bilan ajratilgan (u bo‘lmaganda yo‘l to‘siqlari bilan) hamda boshqa yo‘llar, tramvay va temir yo‘llari, piyoda va velosiped yo‘lkalari bilan bir sathda kesishmaydigan yo‘l.",
 
         "Avtopoyezd — ulagich moslamalari bilan ulangan egarli shatakka oluvchi va yarim tirkama yoki yuk avtomobili va tirkama (tirkamalar)dan iborat transport vositasi tarkibi.",
@@ -216,13 +221,9 @@ function getrandom() {
 
         "Ogohlantiruvchi ishoralar — avariya holatlarining oldini olish maqsadida, shuningdek harakat yo‘nalishini o‘zgartirishda qo‘llaniladigan ishoralar.",
 
-        "Piyoda — transport vositasidan tashqarida bo‘lgan va yo‘lda biror-bir yumush bilan band bo‘lmagan shaxs.",
+        "Piyoda — transport vositasidan tashqarida bo‘lgan va yo‘lda biror-bir yumush bilan band bo‘lmagan shaxs. Velosiped, moped, mototsikl, chana, aravacha va bolalar hamda nogironlar aravachasini yetaklagan, nogironlarning dvigatelsiz aravachasida harakatlanayotgan shaxslar ham piyoda hisoblanadilar.",
 
-        "Velosiped, moped, mototsikl, chana, aravacha va bolalar hamda nogironlar aravachasini yetaklagan, nogironlarning dvigatelsiz aravachasida harakatlanayotgan shaxslar ham piyoda hisoblanadilar.",
-
-        "Piyodalar o‘tish joyi — yo‘l qatnov qismining piyodalar kesib o‘tishi uchun mo‘ljallangan, 5.16.1, 5.16.2 yo‘l belgilari va 1.14.1 — 1.14.3 yo‘l chiziqlari bilan ajratilgan bo‘lagi.",
-
-        "Yo‘l chiziqlari bo‘lmasa, piyodalar o‘tish joyining kengligi 5.16.1 va 5.16.2 yo‘l belgilari orasidagi masofa bilan aniqlanadi.",
+        "Piyodalar o‘tish joyi — yo‘l qatnov qismining piyodalar kesib o‘tishi uchun mo‘ljallangan, 5.16.1, 5.16.2 yo‘l belgilari va 1.14.1 — 1.14.3 yo‘l chiziqlari bilan ajratilgan bo‘lagi. Yo‘l chiziqlari bo‘lmasa, piyodalar o‘tish joyining kengligi 5.16.1 va 5.16.2 yo‘l belgilari orasidagi masofa bilan aniqlanadi.",
 
         "Piyodalar yo‘lkasi — yo‘lning piyodalar harakatlanishi uchun mo‘ljallangan va transport vositalari harakati taqiqlangan qismi.",
 
@@ -238,9 +239,7 @@ function getrandom() {
 
         "Ajratuvchi bo‘lak — yo‘lning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki to‘xtashi uchun mo‘ljallanmagan, yo‘l sathidan baland va (yoki) 1.1 yotiq chizig‘i bilan belgilangan qismi.",
 
-        "Ruxsat etilgan to‘la vazn — aslahalangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan, yuk, haydovchi va yo‘lovchilari bilan birgalikdagi eng yuqori vazni (o‘lchovi).",
-
-        "Bir tarkibda harakatlanayotgan (tirkama va h. k.) transport vositalarining ruxsat etilgan to‘la vazniga shu tarkibga kiruvchi transport vositalarining ruxsat etilgan to‘la vaznlari yig‘indisi kiradi.",
+        "Ruxsat etilgan to‘la vazn — aslahalangan transport vositasining ishlab chiqargan korxona tomonidan belgilangan, yuk, haydovchi va yo‘lovchilari bilan birgalikdagi eng yuqori vazni (o‘lchovi). Bir tarkibda harakatlanayotgan (tirkama va h. k.) transport vositalarining ruxsat etilgan to‘la vazniga shu tarkibga kiruvchi transport vositalarining ruxsat etilgan to‘la vaznlari yig‘indisi kiradi.",
 
         "Reversiv harakat — yo‘l qatnov qismining maxsus ajratilgan, 5.35 — 5.37 yo‘l belgilari, 1.9 yo‘l chizig‘i bilan belgilangan va ustida reversiv svetofor o‘rnatilgan bo‘lagida harakat yo‘nalishining qarama-qarshi tomonga o‘zgarishi.",
 
@@ -261,6 +260,145 @@ function getrandom() {
         "Haqiqiy vazn — transport vositasining yuki, haydovchi va yo‘lovchilari bilan birgalikdagi vazni.",
 
         "Foto va video qayd etish — yo‘l harakati qoidalari buzilishini maxsus avtomatlashtirilgan foto va video texnik vositalari yordamida qayd etish.",
+
+        "7. Mexanik transport vositasining haydovchisi quyidagilarni yonida olib yurishi va IIO xodimlari talab qilganda tekshirish uchun taqdim etishi shart:\n" +
+        "haydovchilik guvohnomasi va uning talonini yoki transport vositasini vaqtinchalik boshqarish huquqini beruvchi talonni, haydovchilik guvohnomasi belgilangan tartibda olib qo‘yilgan bo‘lsa, uning talonini, haydovchilik guvohnomasi va uning taloni olib qo‘yilgan hollarda vaqtinchalik ruxsatnomani;\n" +
+        "vaqtinchalik boshqarish huquqini beruvchi talon yoki vaqtinchalik ruxsatnoma bilan transport vositasini boshqarishda haydovchining shaxsini tasdiqlovchi hujjatni;\n" +
+        "Oldingi tahrirga qarang.\n" +
+        "transport vositasi yoki tirkamani qayd qilish guvohnomasini;\n" +
+        "(7-bandning to‘rtinchi xatboshisi O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 18-noyabrdagi 915-sonli qarori tahririda — Qonun hujjatlari ma’lumotlari milliy bazasi, 19.11.2019-y., 09/19/915/4033-son)\n" +
+        "Oldingi tahrirga qarang.\n" +
+        "transport vositasining egasi bo‘lmagan hollarda esa umumiy egalik huquqini yoki tasarruf etish huquqini beruvchi, egalik qilishga va foydalanishga berilganligini tasdiqlovchi hujjatni, transport vositasi egasining fuqarolik javobgarligini majburiy sug‘urta qilish bo‘yicha sug‘urta polisida ko‘rsatilgan transport vositasi egasining yaqin qarindoshlari (ota-ona, er (xotin), bolalar, aka-ukalar, opa-singillar) bundan mustasno;\n" +
+        "(7-band O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 18-noyabrdagi 915-sonli qaroriga asosan beshinchi xatboshi bilan to‘ldirilgan — Qonun hujjatlari ma’lumotlari milliy bazasi, 19.11.2019-y., 09/19/915/4033-son)\n" +
+        "transport vositasi egasining fuqarolik javobgarligini majburiy sug‘urta qilish bo‘yicha sug‘urta polisini;\n" +
+        "qonunchilikda ko‘zda tutilgan hollarda yo‘l varaqasi va tashilayotgan yukning hujjatlarini.\n" +
+        "Oldingi tahrirga qarang.\n" +
+        "qonun hujjatlarida nazarda tutilgan holatlarda — haydovchilar malaka oshirgani to‘g‘risidagi sertifikati.\n" +
+        "(7-bandning yettinchi xatboshisi O‘zbekiston Respublikasi Vazirlar Mahkamasining 2018-yil 23-fevraldagi 139-sonli qarori tahririda — Qonun hujjatlari ma’lumotlari milliy bazasi, 26.02.2018-y., 09/18/139/0818-son)",
+        "8. Tegishli toifadagi transport vositasini boshqarish huquqini beruvchi haydovchilik guvohnomasiga, uning taloniga, vaqtinchalik ruxsatnomaga ega bo‘lgan shaxs, o‘ziga tegishli bo‘lmagan transport vositasini, uning egasi yonida bo‘lganida yoxud tasarruf etish huquqini beruvchi yoki egalik qilishga, foydalanishga berilganligini tasdiqlovchi hujjatlari bo‘lgan shaxs ishtirokidagina (ularning roziligi bilan) boshqarishi mumkin, agar transport vositalari egalarining fuqarolik javobgarligini majburiy sug‘urta qilish bo‘yicha shartnoma ushbu transport vositasidan cheklanmagan shaxslarning foydalanilishini hisobga olgan holda tuzilgan yoki transport vositasini boshqarayotgan shaxs sug‘urta polisida ko‘rsatilgan bo‘lsa.\n" +
+        "Oldingi tahrirga qarang.\n" +
+        "Transport vositasi egasining fuqarolik javobgarligini majburiy sug‘urta qilish bo‘yicha sug‘urta polisida ko‘rsatilgan transport vositasi egasining yaqin qarindoshlari (ota-ona, er (xotin), bolalar, aka-ukalar, opa-singillar) ushbu transport vositasidan mustaqil foydalanishi va boshqarishi mumkin.\n" +
+        "(8-band O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 18-noyabrdagi 915-sonli qaroriga asosan xatboshi bilan to‘ldirilgan — Qonun hujjatlari ma’lumotlari milliy bazasi, 19.11.2019-y., 09/19/915/4033-son)",
+        "9. Konstruksiyasida xavfsizlik kamarlari nazarda tutilgan transport vositasi harakatlanib borayotganda haydovchi xavfsizlik kamarini taqib olishi shart.\n" +
+        "Quyidagi shaxslarga xavfsizlik kamarini taqmaslikka ruxsat beriladi:\n" +
+        "avtomobilning orqa o‘rindig‘idagi 12 yoshgacha bo‘lgan bolalar (ushbu Qoidalarning 159-bandiga muvofiq);\n" +
+        "transport vositasini o‘quvchi boshqarayotgan vaqtda avtomototransport vositasini yoki shahar elektr transportini boshqarishni o‘rgatuvchi amaliy mashg‘ulotlar instruktori;\n" +
+        "homilador ayollar, salomatligi xavfsizlik kamari taqish imkonini bermaydigan bemor yo‘lovchilar;\n" +
+        "orqaga harakatni amalga oshirayotgan haydovchilar;\n" +
+        "aholi punktlarida harakatlanishda — yo‘nalishli taksi haydovchilari, taksining orqa o‘rindig‘idagi yo‘lovchilar;\n" +
+        "aholi punktlarida tashqi qismiga maxsus rangli grafik chizmalar chizilgan transport vositalari haydovchilari va yo‘lovchilari.\n" +
+        "Mototsikl va mopedda harakatlanayotgan haydovchi va yo‘lovchilar maxsus motoshlem kiyishlari va uni qadab olishlari shart.",
+        "10. Xalqaro yo‘l harakatida ishtirok etayotgan mexanik transport vositasi haydovchisining yonida yo‘l harakati haqidagi Konvensiya talablariga mos keladigan haydovchilik guvohnomasi va transport vositasining (tirkama bo‘lsa unga ham) ro‘yxatdan o‘tganligi haqidagi hujjat, transport vositasida (tirkama bo‘lsa unda ham) ro‘yxatdan o‘tkazish davlat raqam belgisi va u ro‘yxatdan o‘tgan davlatning taniqlik belgisi bo‘lishi shart.",
+        "11. Transport vositasining haydovchisi quyidagilarga majburdir:\n" +
+        "a) yo‘lga chiqishdan oldin transport vositasining texnik sozligini, tozaligini va to‘liq jihozlanganligini tekshirishi;\n" +
+        "b) harakatlanish vaqtida transport vositasining texnik sozligini ta’minlashi;\n" +
+        "v) harakatlanishni boshlashdan oldin yo‘lovchilar transport vositasida joylarini egallaganligiga, transport vositasining eshiklari yopilganligiga, yo‘lovchilar tashish uchun maxsus jihozlangan yuk avtomobillarida yo‘lovchilar tashiyotganda, Qoidalarning 24-bandi talablari bajarilganligiga ishonch hosil qilishi;\n" +
+        "g) harakatlanish jarayonida piyodalar, ayniqsa, bolalar, nogironlar, qariyalarga va velosipedchilarga nisbatan ehtiyotkorlik choralarini ko‘rishi;\n" +
+        "d) yo‘lovchilarni quyidagilar haqida ogohlantirishi:\n" +
+        "harakatlanayotgan vaqtda avtomobil salonidan tana qismlarini (qo‘ldan tashqari) chiqarish taqiqlanganligi;\n" +
+        "transport vositasi harakatlanishni boshlanishidan oldin xavfsizlik kamarini taqish (Ushbu Qoidalarning 9-bandida nazarda tutilgan hollardan tashqari), mototsikl va mopedda harakatlanayotganda esa maxsus motoshlem kiyishlari va uni qadab olishlari zarurligi;\n" +
+        "e) sutkaning qorong‘i vaqtida va yetarlicha ko‘rinmaydigan sharoitda majburiy to‘xtagan transport vositasining haydovchisi ta’mirlash maqsadida yo‘lning qatnov qismiga chiqishdan oldin nur qaytargichli maxsus jilet kiyib olishi (yengil va yuk avtomobili, avtobus va g‘ildirakli traktorlar haydovchilari);\n" +
+        "j) IIO xodimlarining talabiga ko‘ra mastlik holatini aniqlovchi maxsus tekshiruvdan o‘tishi;\n" +
+        "z) quyidagi hollarda transport vositasini foydalanish uchun taqdim etishi:\n" +
+        "IIO xodimlariga qonunda belgilangan xollarda kechiktirib bo‘lmaydigan xizmat vazifalarini bajarish uchun, shuningdek yo‘l-transport hodisasi tufayli shikastlangan yoki nosoz transport vositalarini olib ketish (shatakka olish) uchun (faqat yuk avtomobilidan);\n" +
+        "yo‘lakay yo‘nalishda tibbiy yordam ko‘rsatishga ketayotgan tibbiyot xodimlariga hamda zudlik bilan tibbiy yordamga muhtoj bo‘lgan fuqarolarni davolash-profilaktika muassasasiga olib borish uchun.\n" +
+        "Transport vositasini foydalanish uchun taqdim etish talabi fuqarolarga tegishli (tibbiy yordam ko‘rsatish holatidan tashqari)transport vositalariga taalluqli emas.\n" +
+        "Transport vositasidan foydalangan shaxs haydovchi talab qilganda yo‘l varaqasiga yurilgan vaqtni, bosib o‘tilgan masofani, o‘z ismi-sharifi, mansabi, ish joyi nomini, yo‘l varaqasi bo‘lmagan taqdirda tegishli namunadagi ma’lumotnomani yozib berishi kerak.\n" +
+        "Transport vositalarini tekshirish yoki undan foydalanish huquqiga ega bo‘lgan shaxs haydovchining talabiga muvofiq o‘z xizmat guvohnomasini ko‘rsatishi shart.",
+        "12. Haydovchiga quyidagilar taqiqlanadi:\n" +
+        "transport vositasini mastlik holatida (alkogol, giyohvand moddalar iste’mol qilgan va h. k.), sezgirlik va e’tiborni susaytiradigan dori-darmonlar ta’sirida, yo‘l harakati xavfsizligiga tahdid soladigan darajadagi charchoqlik va betoblik holatida boshqarish;\n" +
+        "har qanday mastlik holatida, sezgirlik va e’tiborni susaytiradigan dori-darmonlar ta’sirida, yo‘l harakati xavfsizligiga tahdid soladigan darajada charchoqlik va betoblik holatida bo‘lgan, shuningdek tegishli toifadagi transport vositasini boshqarish huquqini beruvchi haydovchilik guvohnomasi bo‘lmagan, yo‘l varaqasida yoki transport vositalari egalarining fuqarolik javobgarligini majburiy sug‘urta qilish bo‘yicha sug‘urta polisida ism-sharifi ko‘rsatilmagan (transport vositalari egalarining fuqarolik javobgarligini majburiy sug‘urta qilish bo‘yicha shartnoma ushbu transport vositasidan cheklanmagan shaxslarning foydalanilishini hisobga olgan holda tuzilgan hollardan tashqari) shaxslarga transport vositasini boshqarish uchun topshirish;\n" +
+        "tormoz tizimi, rul boshqaruvi ishlamayotgan, ulagich moslamasi (avtopoyezd tarkibida) nosoz bo‘lgan, qorong‘i vaqtda yoki yetarlicha ko‘rinmaydigan sharoitda — old chiroqlar va orqa gabarit chiroqlari bo‘lmagan yoki yonmayotgan, yomg‘ir, qor yog‘ayotgan vaqtda haydovchi tomonidagi oyna tozalagich ishlamayotgan transport vositalarini boshqarish;\n" +
+        "tegishli ruxsatsiz transport vositalariga maxsus texnik jihoz (ratsiya, sirena va shu kabilar)lar o‘rnatish;\n" +
+        "transport vositalarining tashkiliy jamlanmasi, shu jumladan piyodalar jamlanmalari harakatiga xalaqit berish va ular orasiga kirish;\n" +
+        "transport vositasini boshqarish paytida telefondan, transport vositasi salonining old qismiga ishlab chiqaruvchi korxona tomonidan o‘rnatilgan tele-, videomonitordan tele-, videodasturlarni tomosha qilish uchun foydalanish;\n" +
+        "transport vositasi salonining old qismiga, shu jumladan, priborlar paneliga, quyosh soyaboniga va orqa tomonni ko‘rish ko‘zgusiga (faqat tashqi ko‘rinishni tasvirga oladigan videokamera, navigator, videoregistratorlardan tashqari, agar ular haydovchiga ko‘rinishni cheklamasa) tele, video monitorlar o‘rnatish.\n" +
+        "Harakatlanish vaqtida ushbu Qoidalarning 3-ilovasida ko‘rsatilgan transport vositalaridan foydalanishni taqiqlovchi shartlar yuzaga kelganda, haydovchi ularni bartaraf etishi, agar buning iloji bo‘lmasa, zarur bo‘lgan ehtiyot choralarini ko‘rib, ta’mirlash yoki to‘xtab turish joyiga yetib olish uchun harakatlanishi mumkin.",
+        "13. Yo‘l-transport hodisasi sodir bo‘lganda unga daxldor haydovchilar quyidagilarni bajarishlari shart:\n" +
+        "transport vositasini darhol to‘xtatishi, avariya ishoralarini yoqishi va avariya sababli to‘xtash belgisini o‘rnatishi, transport vositasini va hodisaga daxldor buyumlarni joyidan qo‘zg‘atmasligi;\n" +
+        "shikastlanganlarga birinchi tibbiy yordam ko‘rsatish choralarini ko‘rishi, tez tibbiy yordam va favqulodda qutqaruv xizmatlarini chaqirishi, shoshilinch hollarda esa shikastlanganlarni yaqin oradagi davolash-profilaktika muassasasiga yo‘lakay transport vositasida jo‘natishi, buning imkoni bo‘lmagan hollarda o‘z transport vositasida olib borishi, u erda o‘z ismi-sharifi, transport vositasining ro‘yxatdan o‘tkazish davlat raqam belgisi haqida axborot berishi (o‘z shaxsini tasdiqlovchi hujjatni yoki haydovchilik guvohnomasini va transport vositasining ro‘yxatdan o‘tganlik hujjatini ko‘rsatishi) va hodisa ro‘y bergan joyga qaytib kelishi;\n" +
+        "agar boshqa transport vositalarining harakatiga to‘sqinlik qilsa qatnov qismini bo‘shatishi. Qatnov qismini bo‘shatish yoki shikastlanganlarni o‘z transport vositasida davolash-profilaktika muassasasiga olib borish zarur bo‘lganda, yo‘l-transport hodisasiga daxldor haydovchilar avvalo transport vositasi, hodisaga aloqador buyumlar va izlarning holatini guvohlar ishtirokida dastlabki qayd etishni amalga oshirish, ularning yo‘qolmasligi va hodisa ro‘y bergan joyni aylanib o‘tishni tashkil qilishning barcha choralarni ko‘rishi;\n" +
+        "hodisa haqida IIOga xabar berishi, guvohlarning ism-sharifini va yashash manzilini yozib olib, IIO xodimlarining kelishini kutishi.",
+        "14. Agar yo‘l-transport hodisasida shikastlanganlar bo‘lmasa va haydovchilar hodisaga baho berishda o‘zaro kelisha olsalar, dastlabki hodisa chizmasini chizib, uni imzolab, yaqin oradagi DYHHX maskani yoki IIOga borishlari mumkin.",
+        "15. Piyodalar trotuardan yoki piyodalar yo‘lkasidan, ular bo‘lmaganda esa yo‘l yoqasidan yurishlari kerak. Hajmi katta yuklarni olib ketayotgan piyodalar, shuningdek nogironlarning dvigatelsiz kajavasida harakatlanayotgan shaxslarning trotuar yoki piyodalar yo‘lkasidan harakatlanishi boshqa piyodalarning harakatlanishiga xalaqit berayotgan bo‘lsa, ular qatnov qismining chetidan harakatlanishlari mumkin.\n" +
+        "Trotuar, piyodalar yo‘lkasi, yo‘l yoqasi bo‘lmasa yoki ulardan yurishning imkoniyati bo‘lmagan hollarda piyodalar velosiped yo‘lkasidan yoki qatnov qismining chetidan (ajratuvchi bo‘lagi bor yo‘llarda qatnov qismining tashqi chetidan) bir qator bo‘lib yurishlari mumkin.\n" +
+        "Qatnov qismining chetida harakatlanayotgan piyodalar transport vositalarining harakatiga qarama-qarshi yo‘nalishda yurishlari kerak. Nogironlarning dvigatelsiz kajavasida harakatlanayotgan, mototsikl, moped, velosiped yetaklab ketayotgan shaxslar esa bunday hollarda transport vositalarining harakat yo‘nalishi bo‘ylab yurishlari kerak.\n" +
+        "Piyodalar yo‘lkasida, trotuarda, yo‘l yoqasida piyodalarning harakatlanishiga xalaqit beradigan qurilma va to‘siqlar o‘rnatish taqiqlanadi.",
+        "16. Piyodalarning tashkiliy jamlanmasiga yo‘lning qatnov qismida bir qatorda to‘rt kishidan ortiq bo‘lmasdan, faqat transport vositalarining harakat yo‘nalishi bo‘ylab o‘ng tomondan yurishga ruxsat etiladi.\n" +
+        "Jamlanmaning oldi va orqasida chap tomondan qizil bayroqcha, qorong‘i vaqtda yoki yetarlicha ko‘rinmaslik sharoitida esa oldinda oq, orqada qizil rangli chiroq ko‘targan kuzatuvchilar bo‘lishi kerak.\n" +
+        "Bolalar guruhini trotuarlar va piyodalar yo‘lkalaridangina, ular bo‘lmaganda esa yo‘l yoqasidan faqat kunduzi va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi.",
+        "17. Piyodalar yo‘lning qatnov qismini piyodalar o‘tish joylaridan, shuningdek yer osti va yer usti o‘tish joylaridan, ular bo‘lmaganda esa chorrahalarda trotuar chiziqlari yoki yo‘l yoqasi bo‘ylab kesib o‘tishlari kerak.\n" +
+        "Piyodalarga ko‘rinadigan oraliqda o‘tish joyi yoki chorraha bo‘lmasa, ajratuvchi bo‘laksiz va to‘siqsiz yo‘llardan yo‘lning ikki tomoni yaxshi ko‘rinadigan joyidan, qatnov qismining chetiga nisbatan to‘g‘ri burchak ostida kesib o‘tishlariga ruxsat etiladi.",
+        "18. Yo‘l harakati tartibga solingan joylarda piyodalar tartibga soluvchining yoki piyodalar svetoforlarining, ular bo‘lmaganda esa transport svetoforlarining ishoralariga amal qilishlari kerak.",
+        "19. Harakat tartibga solinmaydigan piyodalar o‘tish joylarida, piyodalar yaqinlashib kelayotgan transport vositalarigacha bo‘lgan masofani va ularning tezligini chamalab ko‘rib, o‘tish o‘zlari uchun xavfsiz ekanligiga ishonch hosil qilganlaridan so‘ng yo‘lning qatnov qismiga chiqishlariga ruxsat etiladi.\n" +
+        "Shuningdek, ular yo‘lning qatnov qismini piyodalar o‘tish joylaridan tashqarida kesib o‘tishda transport vositalarining harakatlanishiga xalaqit bermasliklari, yaqinlashib kelayotgan transport vositalarining yo‘qligiga ishonch hosil qilmasdan turib, ko‘rinishni cheklovchi, to‘xtab turgan transport vositasi yoki boshqa biror to‘siq panasidan chiqmasliklari kerak.\n" +
+        "Yo‘lning qatnov qismida, shuningdek piyodalar o‘tish joylarida harakatlanayotgan piyodalarga telefondan foydalanish, tele-, videomahsulotlarni ko‘rish, radio-audiomahsulotlarni eshitish, kitob yoki davriy matbuot o‘qish, hamda e’tiborni chalg‘itadigan boshqa elektron vositalardan foydalanish taqiqlanadi.\n" +
+        "Piyodalar to‘xtab turgan avtobus va trolleybusning orqa tomonidan, tramvayning esa oldi tomonidan yo‘lni kesib o‘tishlari shart.",
+        "20. Yo‘l harakati xavfsizligini ta’minlash bilan bog‘liq bo‘lmasa yo‘lning qatnov qismiga chiqqan piyodalar ushlanib qolmasliklari va to‘xtamasliklari kerak. O‘tishga ulgurmagan piyodalar qarama-qarshi yo‘nalishdagi transport oqimlarini ajratuvchi chiziqda to‘xtashlari lozim. Keyingi harakatlanish xavfsiz ekanligiga ishonch hosil qilgandan so‘ng va svetofor yoki tartibga soluvchining ishoralarini hisobga olgan holda o‘tishni davom ettirishlari mumkin.",
+        "21. Yalt-yalt etuvchi ko‘k rangli yoki ko‘k va qizil rangli chiroq-mayoqchasi va maxsus tovushli ishorasi yoqilgan transport vositalari yaqinlashib kelayotgan bo‘lsa, piyodalar qatnov qismidan o‘tmasliklari, unda harakatlanayotganlari esa, bu transport vositalariga yo‘l berishlari va zudlik bilan qatnov qismini bo‘shatishlari kerak.",
+        "22. Yo‘nalishli transport vositalarini faqat qatnov qismidan baland joylashgan kutish maydonchalarida, ular bo‘lmaganda esa, trotuar yoki yo‘l yoqasida kutishlari kerak. Qatnov qismidan baland joylashgan maydonchalar bilan jihozlanmagan bekatlarda yo‘nalishli transport vositalari to‘la to‘xtagandan so‘ng unga chiqish uchun qatnov qismiga chiqishga ruxsat etiladi. Undan tushgandan keyin ushlanib qolmasdan qatnov qismini bo‘shatishlari shart.\n" +
+        "Qatnov qismi bo‘ylab bekatlarga borayotgan yoki undan qaytayotgan piyodalar ushbu Qoidalarning 18 — 21-bandlari talablariga amal qilishlari kerak.\n",
+        "23. Yo‘lovchilar transport vositasiga faqat u to‘la to‘xtagandan so‘ng trotuar yoki yo‘l yoqasi tomondan chiqishga va tushishga majburdirlar.\n" +
+        "Yo‘lovchilarning transport vositalaridan trotuar yoki yo‘l yoqasi tomondan tushishi yoki ularga chiqishining iloji bo‘lmagan hollarda, agar bu harakat xavf tug‘dirmasa yoki boshqa yo‘l harakati qatnashchilariga xalaqit bermasa yo‘lning qatnov qismi tomonidan amalga oshirilishi mumkin.",
+        "24. Yo‘lovchilarga quyidagilar taqiqlanadi:\n" +
+        "transport vositasi harakatlanayotgan vaqtda haydovchini boshqarishdan chalg‘itish va unga xalaqit berish;\n" +
+        "harakatlanayotgan bortli yuk avtomobillarida tik turish, bortlarda yoki undan yuqoridagi yuk ustida o‘tirish;\n" +
+        "transport vositasi harakatlanayotgan vaqtda uning eshiklarini ochish;\n" +
+        "transport vositasi harakatlanayotgan vaqtda salondan tana qismlarini (qo‘ldan tashqari) chiqarish.",
+        "25. Ko‘k yoki ko‘k va qizil rangli yalt-yalt etuvchi chiroq-mayoqchasi yoqilgan transport vositalarining haydovchilari kechiktirib bo‘lmaydigan xizmat vazifalarini bajarayotib, yo‘l harakati xavfsizligini ta’minlash sharti bilan ushbu Qoidalarning VII bob (38-bandidan tashqari), IX — XVI, XIX–XX boblari, 1 va 2-ilovalari talablaridan chetga chiqishlari mumkin.\n" +
+        "Boshqa yo‘l harakati qatnashchilariga nisbatan imtiyozga ega bo‘lishlari uchun bunday transport vositalarida ko‘k yoki ko‘k va qizil rangli yalt-yalt etuvchi chiroq-mayoqcha va maxsus tovushli ishora yoqilgan bo‘lishi shart. Ular o‘zlariga yo‘l berilayotganligiga ishonch hosil qilganlaridan so‘nggina imtiyozdan foydalanishlari mumkin.\n" +
+        "Ushbu imtiyozdan ko‘k yoki ko‘k va qizil rangli yalt-yalt etuvchi chiroq-mayoqchalar va maxsus tovushli ishoralari yoqilgan transport vositalar tomonidan kuzatib kelayotgan transport vositalari ham foydalanadilar. Kuzatib kelinayotgan transport vositalarida yaqinni yorituvchi chiroqlari yoqilgan bo‘lishi shart.",
+        "26. Haydovchilar ko‘k yoki ko‘k va qizil rangli yalt-yalt etuvchi chiroq-mayoqcha va maxsus tovushli ishoralarini yoqqan holda yaqinlashib kelayotgan transport vositalariga, shuningdek ularning kuzatuvidagi, yaqinni yorituvchi chiroqlari yoqilgan transport vositalariga to‘siqsiz o‘tib ketishlari uchun yo‘l berishlari shart.",
+        "27. Ko‘k yoki ko‘k va qizil rangli yalt-yalt etuvchi chiroq-mayoqchasini yoqib to‘xtab turgan transport vositasiga yaqinlashayotgan haydovchilar zarur bo‘lgan hollarda harakatlanish tezligini darhol to‘xtash imkoniyatini beradigan darajada kamaytirishlari shart.\n",
+        "28. Zarg‘aldoq yoki sariq rangli miltillovchi chiroq-mayoqcha yo‘lda qurilish, ta’mirlash yoki tozalash ishlari olib borilayotganda, shuningdek texnik shikastlangan, nosoz bo‘lgan va boshqa transport vositalarini qonunda ko‘zda tutilgan hollarda ortishda, tashishda, yo‘l harakatida qatnashayotgan, gabarit o‘lchamlari ushbu Qoidalarning 164-bandida belgilangandan ortiq bo‘lgan, shuningdek o‘ta og‘ir, katta o‘lchamli va xavfli yuk tashiyotgan transport vositalarida va qonun hujjatlari bilan belgilangan hollarda bunday transport vositalarini kuzatib kelayotgan transport vositalarida yoqilishi kerak. Zarg‘aldoq va sariq rangli chiroq-mayoqcha harakatlanishda imtiyoz bermaydi va boshqa yo‘l harakati qatnashchilarini faqat xavf borligidan ogohlantiradi.",
+        "29. Zarg‘aldoq yoki sariq rangli chiroq-mayoqchasi yoqilgan transport vositalarining haydovchilari yo‘l qurilishi, ta’mirlanishi va tozalanishi jarayonida hamda texnik shikastlangan, nosoz bo‘lgan, shuningdek qonunda ko‘zda tutilgan hollarda boshqa transport vositalarini ortishda yo‘l harakati xavfsizligini ta’minlash sharti bilan ushbu Qoidalarning yo‘l belgilari (2.2, 2.4 — 2.6, 3.11 — 3.14, 3.17.2, 3.20 yo‘l belgilaridan tashqari), yo‘l chiziqlari hamda 67 — 71 va 121-bandlari talablaridan chetga chiqishlari mumkin.\n" +
+        "Yo‘l harakatida qatnashayotgan, gabarit o‘lchamlari ushbu Qoidalarning 164-bandida belgilangandan ortiq bo‘lgan, katta o‘lchamli va (yoki) o‘ta og‘ir yuk tashiyotgan transport vositalarining hamda ularni kuzatib kelayotgan zarg‘aldoq yoki sariq rangli miltillovchi chiroq-mayoqchasi yoqilgan transport vositalarining haydovchilari harakat xavfsizligini ta’minlash sharti bilan yo‘l chiziqlari talablaridan chetga chiqishlari mumkin.",
+        "30. Svetoforlarda yashil, sariq, qizil va oq rangli yorug‘lik ishoralari qo‘llaniladi.\n" +
+        "Svetofor ishoralari vazifasiga bog‘liq ravishda doirasimon, yo‘naltirgich, piyoda tasviri tushirilgan va X-simon ko‘rinishda bo‘lishi mumkin (ushbu Qoidalarga 1-ilova).\n" +
+        "Ishorasi doira shaklidagi svetoforlarda yashil ishoralar bilan bir sathda joylashgan ishoralari yashil yo‘naltirgich ko‘rinishidagi bitta yoki ikkita qo‘shimcha tarmoq bo‘lishi mumkin.",
+        "31. Svetoforning doirali ishoralari quyidagi ma’noni bildiradi:\n" +
+        "yashil ishora harakatlanishga ruxsat beradi;\n" +
+        "miltillovchi yashil ishora ham harakatlanishga ruxsat beradi va uning ta’sir vaqti tugayotganligi hamda ko‘p o‘tmay taqiqlovchi ishora yonishi haqida axborot beradi;\n" +
+        "yashil ishora o‘chishiga soniyalarda qancha vaqt qolganligi haqida axborot berish uchun raqamli tablo qo‘llanilishi mumkin;\n" +
+        "sariq ishora harakatni taqiqlaydi, ushbu Qoidalarning 42-bandida ko‘zda tutilgan holatlardan tashqari va ishoralar almashuvi haqida ogohlantiradi;\n" +
+        "miltillovchi sariq ishora harakatlanishga ruxsat beradi va tartibga solinmagan chorraha yoki piyodalar o‘tish joyi borligidan xabardor qiladi, xavf-xatar haqida ogohlantiradi;\n" +
+        "qizil ishora, shuningdek miltillovchi qizil ishora harakatlanishni taqiqlaydi;\n" +
+        "qizil va sariq ishoralarning bir vaqtda yonishi harakatlanishni taqiqlaydi va ko‘p o‘tmay yashil ishora yonishi haqida axborot beradi.",
+        "32. Yo‘naltirgich ko‘rinishidagi qizil, sariq va yashil rangli svetofor ishoralari ham doira shaklidagi svetofor ishoralari bilan bir xil ma’noga ega bo‘ladi. Ular faqat ko‘rsatilgan yo‘nalishga ta’sir etadi.\n" +
+        "Agar tegishli yo‘l belgisi bilan qayrilib olish taqiqlanmagan bo‘lsa, chapga burilishga ruxsat beruvchi yo‘naltirgich qayrilib olishga ham ruxsat beradi. Qo‘shimcha tarmoqdagi yashil yo‘naltirgich ham xuddi shu ma’noni bildiradi.\n" +
+        "Qo‘shimcha tarmoqdagi ishora o‘chirilgan bo‘lsa, shu tarmoq tartibga solayotgan yo‘nalishda harakatlanish taqiqlanganligini bildiradi.",
+        "33. Svetoforning asosiy yashil ishorasiga qora yo‘naltirgich (yo‘naltirgichlar)ning shakli tushirilgan bo‘lsa, u haydovchilarga svetoforning qo‘shimcha tarmog‘i borligi haqida axborot beradi va asosiy yashil ishora yonganda harakatlanishga ruxsat berilgan yo‘nalishlarni ko‘rsatadi.",
+        "34. Agar svetofor ishorasi piyoda tasviri ko‘rinishida bo‘lsa, u faqat piyodalarning harakatiga ta’sir ko‘rsatadi. Bunda yashil ishora piyodalarning harakatlanishiga ruxsat beradi, qizil ishora esa taqiqlaydi.\n" +
+        "Ko‘zi ojiz piyodalarga qatnov qismini kesib o‘tishlari mumkinligini bildirish uchun svetoforning yorug‘lik ishoralariga tovushli ishora ham qo‘shilishi mumkin.",
+        "35. Qatnov qismidagi harakat yo‘nalishi qarama-qarshi tomonga o‘zgarishi mumkin bo‘lgan bo‘laklarida transport vositalarining harakatini tartibga solish uchun X-simon qizil ishorali va pastga yo‘nalgan yo‘naltirgich ko‘rinishidagi yashil ishorali reversiv svetoforlar qo‘llaniladi. Bu ishoralar qaysi bo‘lak ustiga o‘rnatilgan bo‘lsa, unda harakatlanishni taqiqlaydi yoki ruxsat beradi.\n" +
+        "Ikki tomoni 1.9 chizig‘i bilan belgilangan bo‘lak ustiga o‘rnatilgan ishoralari o‘chirilgan reversiv svetofor shu bo‘lakka kirishni taqiqlaydi.",
+        "36. Tramvaylarning hamda maxsus ajratilgan bo‘lak bo‘ylab harakatlanayotgan yo‘nalishli transport vositalarining harakatlanishini tartibga solish uchun “T” — harfi ko‘rinishida joylashgan to‘rtta doirasimon oq rang ishorali svetoforlar qo‘llanilishi mumkin.\n" +
+        "Yuqoridagi bir yoki bir nechta va pastki ishora bir vaqtning o‘zida yonganda, harakatlanishga ruxsat etiladi. Ulardan chapdagisi chapga, o‘ngdagisi o‘ng tomonga burilishga, o‘rtadagisi to‘g‘riga yurishga ruxsat beradi. Agar yuqoridagi uchta ishora bir vaqtda yonsa, harakatlanish taqiqlanadi.",
+        "37. Temir yo‘l kesishmalarida o‘rnatilgan doirasimon oq rangli miltillovchi ishora transport vositalarining kesishma orqali harakatlanishiga ruxsat beradi. Ko‘rinish chegarasida yaqinlashib kelayotgan poyezd (lokomotiv, drezina) bo‘lmasa, o‘chirilgan oq va qizil ishoralarda ham harakatlanishga ruxsat beriladi.\n" +
+        "Temir yo‘l kesishmalarida svetoforning miltillovchi qizil ishorasi bilan bir vaqtda harakat qatnashchilarining kesishma orqali harakatlanishi taqiqlanganligi to‘g‘risida qo‘shimcha axborot sifatida, tovushli ishora ham berilishi mumkin.",
+        "38. Tartibga soluvchining ishoralari quyidagi ma’noni bildiradi:\n" +
+        "qo‘llari yon tomonga uzatilganda yoki tushirilganda:\n" +
+        "chap va o‘ng yon tomonidan tramvayga to‘g‘riga, relssiz transport vositalariga to‘g‘riga va o‘ngga harakatlanishga, piyodalarga qatnov qismini kesib o‘tishga ruxsat beriladi;\n" +
+        "old va orqa tomonidan barcha transport vositalari va piyodalarning harakatlanishi taqiqlanadi;\n" +
+        "o‘ng qo‘li oldinga uzatilganda:\n" +
+        "chap yonidan tramvayga chapga, relssiz transport vositalariga barcha yo‘nalishlarda;\n" +
+        "oldi tomonidan barcha transport vositalariga faqat o‘ngga harakatlanishga ruxsat beriladi;\n" +
+        "orqa tomonidan va o‘ng yonidan barcha transport vositalarining harakatlanishi taqiqlanadi;\n" +
+        "piyodalarga tartibga soluvchining orqa tomonidan qatnov qismini kesib o‘tishga ruxsat etiladi;\n" +
+        "qo‘lini yuqoriga ko‘targanda:\n" +
+        "ushbu Qoidalarning 42-bandida ko‘rsatilganidan boshqa hollarda transport vositalari va piyodalarning barcha yo‘nalishlarda harakatlanishi taqiqlanadi;\n" +
+        "tartibga soluvchi haydovchi va piyodalarga tushunarli bo‘lgan boshqa ishoralarni ham berishi mumkin. Ishoralar yaxshi ko‘rinishi uchun tartibga soluvchi jezl yoki yorug‘lik qaytaradigan qizil rangli moslamalarni qo‘llashi mumkin.",
+        "39. Harakatni tartibga soluvchi yoki IIO xodimi o‘z xizmat vazifalarini bajarayotganida haydovchidan transport vositasini qo‘l ishorasi yoki ovoz kuchaytirgich yordamida to‘xtatishni talab qilishi mumkin. Transport vositasining haydovchisi ko‘rsatilgan joyda to‘xtashi shart.",
+        "40. Yo‘l harakati qatnashchilarining e’tiborini jalb etish uchun hushtak bilan qo‘shimcha ishora beriladi.",
+        "41. Svetoforning (reversivdan tashqari) yoki tartibga soluvchining taqiqlovchi ishorasida haydovchilar transport vositalarini to‘xtash chizig‘i (5.33 yo‘l belgisi) oldida (bunda transport vositasining eng oldingi nuqtasi to‘xtash chizig‘i ustiga chiqib ketmasligi kerak), bunday chiziq bo‘lmaganda esa:\n" +
+        "(41-bandning birinchi xatboshisi O‘zbekiston Respublikasi Vazirlar Mahkamasining 2019-yil 9-apreldagi 292-sonli qarori tahririda — Qonun hujjatlari ma’lumotlari milliy bazasi, 10.04.2019-y., 09/19/292/2915-son)\n" +
+        "chorrahaning qatnov qismi bilan kesishgan joyida, piyodalarga (ushbu Qoidalarning 102-bandini hisobga olgan holda) xalaqit bermasdan;\n" +
+        "temir yo‘l kesishmasi oldida ushbu Qoidalarning 119-bandiga muvofiq;\n" +
+        "boshqa joylarda svetofor yoki tartibga soluvchining oldida, harakatlanishiga ruxsat berilgan transport vositalari va piyodalarga xalaqit bermagan holda to‘xtashi kerak.",
+        "42. Sariq ishora yonganda yoki tartibga soluvchining qo‘li yuqoriga ko‘tarilganida, ushbu Qoidalarning 41-bandida nazarda tutilgan joylarda, keskin tormoz bermasdan to‘xtashga ulgura olmaydigan transport vositalarining haydovchilariga harakatni davom ettirishga ruxsat etiladi.\n" +
+        "Ushbu ishoralar berilganda, qatnov qismida bo‘lgan piyodalar uni bo‘shatishlari, agar buning iloji bo‘lmasa, qarama-qarshi yo‘nalishlardagi transport oqimlarini ajratuvchi chiziqda to‘xtashlari kerak.",
+        "43. Tartibga soluvchining ishorasi va ko‘rsatmalari svetofor ishoralari, yo‘l belgilari va chiziqlari talablariga zid kelgan hollarda haydovchi va piyodalar tartibga soluvchining ishorasi va ko‘rsatmalariga amal qilishlari kerak.\n" +
+        "Svetofor ishoralari imtiyoz belgilari talablariga zid kelgan hollarda haydovchilar svetofor ishoralariga amal qilishlari kerak.",
     ];
     let randomIndex = Math.floor(Math.random() * atamalar.length);
     return atamalar[randomIndex];
