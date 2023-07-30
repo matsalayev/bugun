@@ -10,16 +10,7 @@
         }
     };
 
-    const on = (type, el, listener, all = false) => {
-        let selectEl = select(el, all);
-        if (selectEl) {
-            if (all) {
-                selectEl.forEach((e) => e.addEventListener(type, listener));
-            } else {
-                selectEl.addEventListener(type, listener);
-            }
-        }
-    };
+
 
     const onscroll = (el, listener) => {
         el.addEventListener("scroll", listener);
@@ -67,7 +58,7 @@
         if (seconds < 10) 
             seconds = "0" + seconds;
         
-        countdown.innerHTML = clock.replace("%h", hours).replace("%m", minutes).replace("%s", seconds).replace("%d", new Date().getDate());
+        countdown.innerHTML = clock.replace("%h", hours.toString()).replace("%m", minutes.toString()).replace("%s", seconds.toString()).replace("%d", new Date().getDate().toString());
     };
     countDownDate();
     setInterval(countDownDate, 1000);
@@ -98,14 +89,14 @@
         const output = description.innerHTML;
         let day = "";
         function getRandomTilak() {
-            var tilaklar = [
+            let tilaklar = [
                 "Kuningiz maroqli o‘tsin!",
                 "Yaxshi kayfiyat hamroh bo‘lsin!",
                 "O‘rganishdan to'xtamang!",
                 "Yangiliklar bilan hamnafas bo‘ling!",
                 "Yangi marralarni zabt eting!",
             ];
-            var randomIndex = Math.floor(Math.random() * tilaklar.length);
+            let randomIndex = Math.floor(Math.random() * tilaklar.length);
             return tilaklar[randomIndex];
         }
         let text = getRandomTilak();
@@ -136,7 +127,7 @@
 })();
 
 function saveName() {
-    var name = prompt("Iltimos ismingizni kiriting:");
+    let name = prompt("Iltimos ismingizni kiriting:");
     if (name) {
         localStorage.setItem("savedName", name);
         document.getElementById("nameDisplay").textContent = name;
@@ -145,7 +136,7 @@ function saveName() {
 }
 
 window.onload = function () {
-    var savedName = localStorage.getItem("savedName");
+    let savedName = localStorage.getItem("savedName");
     if (savedName) {
         if (new Date().getHours() <= 10 && new Date().getHours() > 4) {
             document.getElementById("nameDisplay").textContent = "Xayrli tong, " + savedName;
@@ -159,7 +150,7 @@ window.onload = function () {
     }
 };
 function getrandom() {
-    var atamalar = [
+    let atamalar = [
         "Avtomagistral — 5.1. yo‘l belgisi bilan belgilangan, har bir yo‘nalishning qatnov qismlari ajratuvchi bo‘lak bilan ajratilgan (u bo‘lmaganda yo‘l to‘siqlari bilan) hamda boshqa yo‘llar, tramvay va temir yo‘llari, piyoda va velosiped yo‘lkalari bilan bir sathda kesishmaydigan yo‘l.",
 
         "Avtopoyezd — ulagich moslamalari bilan ulangan egarli shatakka oluvchi va yarim tirkama yoki yuk avtomobili va tirkama (tirkamalar)dan iborat transport vositasi tarkibi.",
@@ -270,11 +261,11 @@ function getrandom() {
 
         "Foto va video qayd etish — yo‘l harakati qoidalari buzilishini maxsus avtomatlashtirilgan foto va video texnik vositalari yordamida qayd etish.",
     ];
-    var randomIndex = Math.floor(Math.random() * atamalar.length);
+    let randomIndex = Math.floor(Math.random() * atamalar.length);
     return atamalar[randomIndex];
 }
 function en_uz_ru() {
-    var listw = [
+    let listw = [
         "to - uchun - к",
         "is - hisoblanadi - является",
         "and - va - и",
@@ -5407,7 +5398,6 @@ function en_uz_ru() {
         "frequencies - chastotalar - частоты",
         "inputmin - kiritish - вводмин",
         "learns - o'rganadi - учится",
-        "mult - ko'p - мульт",
         "subtime - pastki vaqt - подвремя",
         "autoincrement - avtomatik oshirish - автоматическое приращение",
         "yearweek - yil haftasi - годнеделя",
@@ -9773,6 +9763,6 @@ function en_uz_ru() {
         "glyph - glif - глиф",
         "mile - milya - миля",
     ]
-    var randomIndex = Math.floor(Math.random() * listw.length);
+    let randomIndex = Math.floor(Math.random() * listw.length);
     return listw[randomIndex];
 }
